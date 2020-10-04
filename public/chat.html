@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="/socket.io/socket.io.js"></script>
+    
+    <script src="main.js" type="text/javascript" defer></script>
+    <title>Chat Site</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h2 id="room-name">Room 1</h2>
+        <ul id="users">
+            <li>Rajatha</li>
+            <li>Lihini</li>
+        </ul>
+    </div>
+
+    <div class="messages">
+        <!--
+        <div class="message">
+            <p>Rajatha <span>10.20 AM</span></p>
+            <p>user typed message 1</p>
+        </div>
+
+        <div class="message">
+            <p>Lihini <span>10.20 AM</span></p>
+            <p>user typed message 2</p>
+        </div>
+    </div>
+-->
+    <form id="form-chat">
+        <input type="text" name="msg" id="msg">
+        <button type="submit"> Send </button>
+    </form>
+
+</body>
+</html>
