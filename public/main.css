@@ -5,6 +5,7 @@ body {
 h2 {
     color: navy;
     margin-left: 20px;
+    text-align: center;
   }
 form{
     margin-top: 20%;
